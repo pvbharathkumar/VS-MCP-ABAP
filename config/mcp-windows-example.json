@@ -1,0 +1,17 @@
+{
+    "servers": {
+        "arc-1": {
+            "type": "stdio",
+            "command": "npx",
+            "args": [
+                "-y",
+                "arc-1@latest"
+            ],
+            "env": {
+                "NODE_USE_SYSTEM_CA": "1",
+                "SAP_BTP_SERVICE_KEY_FILE": "C:\\Users\\xxxxxxxx\\.config\\arc-1\\btp-service-key.json",
+                "SAP_SYSTEM_TYPE": "btp"
+            }
+        }
+    }
+}
